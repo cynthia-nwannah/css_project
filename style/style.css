@@ -58,15 +58,27 @@ section {
 
 }
 
+.capabilities2 span {
+    color: var(--black);
+    font-weight: bold;
+}
+
+.capabilities2:hover span {
+    color: var(--orange);
+    padding-right: 5px;
+}
+
 .capabilities2 p {
     max-width: 80%;
     line-height: 28px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .capabilities2 a {
-   padding-top: 15px;
+   font-weight: bold;
    color: var(--orange);
+   font-size: 20px;
 }
 
 /* section 2 */
