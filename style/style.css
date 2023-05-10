@@ -88,7 +88,6 @@ section {
     height: 350px;
     margin: 0 auto;
     flex-direction: column;
-    /* position: relative; */
 }
 
 .row {
@@ -102,7 +101,6 @@ section {
     width: 26%;
     height: 400px;
     display: flex;
-    /* position: relative; */
     flex-direction: column;
 }
 
@@ -134,7 +132,6 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* max-width: 500px; */
     object-fit: contain;
     z-index: 3;
     background-color: var(--white);
@@ -168,9 +165,7 @@ section {
     object-fit: fill;
     display: flex;
     justify-content: center;
-
     align-items: center;
-    /* transform: scale(1.6); */
     transition: all 250ms ease-in-out;
 }
 
@@ -213,7 +208,6 @@ margin-left: -8.2%
 /* text write up */
 .write-up2 h2 {
     width: 85%;
-
     text-align: center;
     margin: 0 auto;
     font-size: 25px;
@@ -254,5 +248,4 @@ margin-left: -8.2%
     text-align: left;
     width: 100%;
     font-size: 17px;
-
 }
