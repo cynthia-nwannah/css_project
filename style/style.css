@@ -20,7 +20,7 @@
 section {
     width: 96%;
     margin: 0 auto;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 #capable {
@@ -65,7 +65,6 @@ section {
 
 .capabilities2:hover span {
     color: var(--orange);
-    padding-right: 5px;
 }
 
 .capabilities2 p {
@@ -86,6 +85,7 @@ section {
 #tools {
     display: flex;
     height: 350px;
+    width: 95%;
     margin: 0 auto;
     flex-direction: column;
 }
@@ -94,7 +94,6 @@ section {
     width: 100%;
     display: flex;
     height: inherit;
-    margin: 0 auto;
 }
 
 .parent {
@@ -128,11 +127,10 @@ section {
     height: 60%;
     display: flex;
     width: 100%;
-    padding: 10px;
-    flex-direction: column;
+
     justify-content: center;
     align-items: center;
-    object-fit: contain;
+    /* object-fit: contain; */
     z-index: 3;
     background-color: var(--white);
     opacity: 0;
@@ -206,30 +204,40 @@ margin-left: -8.2%
 }
 
 /* text write up */
-.write-up2 h2 {
-    width: 85%;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 25px;
-
+.inner_div h2 {
+    width: 90%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
-.write-up2 p {
-  
+.inner_div p {
     text-align: left;
-    margin: 0 auto;
-    width: 80%;
-    padding: 10px;
-    font-weight: 500;
-    font-size: 15px;
-    
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 20px;
+    float: right;
+    width: 90%;
 }
 
-.write-up2 a {
-    width: 80%;
-    text-align: left;
+.inner_div a {
     color: var(--orange);
-    padding: 8px;
+    /* padding: 8px; */
+    width: 90%;
+    text-align: left;
+}
+
+.inner_div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto !important;
+    text-align: left;
+
 }
 
 .write-up {
@@ -248,4 +256,20 @@ margin-left: -8.2%
     text-align: left;
     width: 100%;
     font-size: 17px;
+}
+
+.fixb  h2{
+    /* width: 78%; */
+    padding-left: 15px !important;
+    /* background-color: red; */
+}
+
+.fixb p{
+    padding-left: 15px !important;
+
+}
+
+.fixb a {
+    padding-left: 15px !important;
+
 }
