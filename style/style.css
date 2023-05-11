@@ -84,7 +84,7 @@ section {
 
 #tools {
     display: flex;
-    height: 400px;
+    height: 350px;
     width: 95%;
     margin: 0 auto;
     flex-direction: column;
@@ -207,16 +207,17 @@ margin-left: -8.2%
 .inner_div h2 {
     width: 90%;
     text-align: left;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bolder;
 }
 
 .inner_div p {
     text-align: left;
     font-family: 'Nunito', sans-serif;
-
+    flex-wrap: wrap;
     font-weight: 800;
-    font-size: 13px;
+    overflow: hidden;
+    font-size: 12.5px;
     line-height: 20px;
     float: right;
     width: 90%;
